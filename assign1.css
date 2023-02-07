@@ -1,0 +1,78 @@
+body{
+    background-image:  url(https://images.pexels.com/photos/12953679/pexels-photo-12953679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+background-size: cover;
+border-top-left-radius: 300% 192px; 
+/* display: inline; */
+
+
+}
+
+
+div>header>span>a:visited{
+    color: black;
+    }
+.sp{
+       /* text-indent: 15em; */
+   text-align: center;
+    font-size: 180%;
+  }
+
+div>header>span>a{
+    text-decoration: none;
+
+}
+header{
+    padding-top: 15%;
+    display: inline;
+    
+}
+.logo{
+    width: 100px;
+   
+    /* border-radius: 500px; */
+    padding-left:  20px;
+    float:left;
+ }
+ p{
+    padding-top: 4%;
+text-transform: capitalize ;
+color: black;
+font-size: 70px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+letter-spacing: 0.1cm;
+ }
+ p:hover{
+    color:yellow;
+ }
+ a:hover{
+   font-weight: bold;
+   
+ }
+ button{
+    
+    padding: 5px 20px 10px 20px;
+    font-size: 20px;
+background-color:red;
+display: inline-block;
+color: white;
+border: none;
+font-family: cursive;
+}
+
+#b{
+    font-size:large;
+
+    font-weight: bold;
+}
+footer>a:visited{
+    color: rgb(235, 243, 10);
+}
+p::selection{
+
+
+background: red;
+color: aqua;
+
+
+}
